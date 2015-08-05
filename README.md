@@ -1,6 +1,8 @@
 # GoogleMapsAPIv3Toolkit-QS
 Qlik Sense extension to integrate main Google Maps API v3 features all in one place
 
+Tested with Qlik Sense 2.0.2.
+
 Features included are:
   * Based on latitude and longitude coordinates (using Qlik Sense Geo Points)
   * Support main map types
