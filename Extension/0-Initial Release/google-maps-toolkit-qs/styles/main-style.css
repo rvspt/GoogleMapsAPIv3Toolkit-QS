@@ -1,0 +1,15 @@
+.qv-object-google-maps.toolkit-qs h1 {
+  font-size: 150%;
+  color: #8c8c8c;
+}
+
+.infoWindows{
+  color: #8c8c8c;
+}
+
+.infoWindows h1{
+	font-size: 150%;
+}
+
+/* Removes the close button on the info windows */
+.gm-style-iw + div {display: none;} 

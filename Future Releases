@@ -1,0 +1,12 @@
+I will list here features that I think might be interesting to add to the extension. Feel free to suggest more and/or contribute in it's development too!
+I will also list here some misbehaviors and/or bugs that I'd like to correct when I have time.
+
+New Features List:
+  * Easy definition of images source folder for InfoWindows
+  * Line weight dynamic calculation for larger and thinner subpaths within line path
+  * Line color dynamic calculation for subpaths within a line path
+  * Calculation condition to render the map
+
+Misbehaviors and/or bugs (critical and in top of the list to solve)
+  * After doing selections in the extension, sometimes it generates additional hypercubes, even if the feature is not requested in the extension's configuration
+  * Google API does not seem to receive correctly the need to support touch interactivity to move/zoom the map around
