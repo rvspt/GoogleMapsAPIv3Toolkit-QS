@@ -6,6 +6,8 @@ New Features List:
   * Line weight dynamic calculation for larger and thinner subpaths within line path
   * Line color dynamic calculation for subpaths within a line path
   * Calculation condition to render the map
+  * Lasso selection
+  * Parallel loading of points for larger sets
 
 Misbehaviors and/or bugs (critical and in top of the list to solve)
   * After doing selections in the extension, sometimes it generates additional hypercubes, even if the feature is not requested in the extension's configuration
