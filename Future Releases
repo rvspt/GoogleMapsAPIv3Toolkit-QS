@@ -8,6 +8,7 @@ New Features List:
   * Calculation condition to render the map
   * Lasso selection
   * Parallel loading of points for larger sets
+  * Layering of components
 
 Misbehaviors and/or bugs (critical and in top of the list to solve)
   * After doing selections in the extension, sometimes it generates additional hypercubes, even if the feature is not requested in the extension's configuration
