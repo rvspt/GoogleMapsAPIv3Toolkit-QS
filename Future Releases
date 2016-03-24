@@ -5,7 +5,6 @@ New Features List:
   * Easy definition of images source folder for InfoWindows
   * Line weight dynamic calculation for larger and thinner subpaths within line path
   * Line color dynamic calculation for subpaths within a line path
-  * Calculation condition to render the map
   * Lasso selection
   * Parallel loading of points for larger sets
   * Layering of components

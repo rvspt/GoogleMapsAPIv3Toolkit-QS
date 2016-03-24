@@ -6,3 +6,8 @@
 
 - Added "Supress Zero Values"
 - Added "Suppress Missing Values"
+
+*********************** v1.2  - 2016-03-24 ***********************
+
+- Added "Show conditional" for displaying the extension. Check the
+  "Google Maps API v3 Toolkit Example.qvf" to see how it works.
