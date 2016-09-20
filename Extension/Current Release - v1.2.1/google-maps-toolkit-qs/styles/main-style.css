@@ -1,0 +1,35 @@
+.qv-object-google-maps.toolkit-qs h1 {
+  font-size: 150%;
+  color: #8c8c8c;
+}
+
+.infoWindows{
+  color: #8c8c8c;
+}
+
+.infoWindows h1{
+	font-size: 150%;
+}
+
+/* Removes the close button on the info windows */
+.gm-style-iw + div {display: none;} 
+
+/* API Key warning */
+.apiWarningTitle{
+	margin-top: 20px;
+	font-size: 125%;
+	color: #db4437;
+}
+
+.googleBlueText{
+	color: #4285f4;
+}
+
+.googleLink{
+	font-weight: bold;
+	color:  #4285f4;
+}
+
+.spaceTop{
+	margin-top: 1em;
+}

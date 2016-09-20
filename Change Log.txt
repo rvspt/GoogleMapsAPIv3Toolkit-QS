@@ -11,3 +11,15 @@
 
 - Added "Show conditional" for displaying the extension. Check the
   "Google Maps API v3 Toolkit Example.qvf" to see how it works.
+
+********************** v1.2.1  - 2016-03-24 **********************
+
+This version is focused in solving issues that arised as external
+libraries were updated:
+
+- Added "Google API Key" specification in extension properties as
+  consequence of Google now requesting a Google API key even for
+  the standard plan. This is related to the "Oops! Something went
+  wrong." error message from Google Maps API
+- Added images used for markers clusters in the extension's local
+  image folder as the original images were moved from Google Code
