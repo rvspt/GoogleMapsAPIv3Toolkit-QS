@@ -92,7 +92,7 @@ function ($, qlik, extension_properties, MarkerClusterer) {
 		  }else{
 		  	$element.empty();
 		  	
-		  	$.getScript("https://maps.google.com/maps/api/js?libraries=visualization&sensor=false'&key="+layout.properties.googleAPIKey, function(){
+		  	$.getScript("https://maps.google.com/maps/api/js?libraries=visualization&sensor=false&key="+layout.properties.googleAPIKey, function(){
 		      //checking for the coordinates field info in the list
 		      var dimension_info="";
 		      if(app_this.backendApi.getDimensionInfos())
