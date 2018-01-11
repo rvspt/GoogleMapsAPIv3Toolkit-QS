@@ -59,7 +59,6 @@ define( [], function () {
 			apiKey:{
 				type: "items",
 				label: "Google API Key",
-				show: function( data ){ return data.qListObjectDef.qDef.qFieldDefs && data.qListObjectDef.qDef.qFieldDefs!=""; },
 				items: {
 					googleAPIKey:{
 						ref: "properties.googleAPIKey",
@@ -90,7 +89,6 @@ define( [], function () {
 			mapData:{
 				type: "items",
 				label: "Map Data Definition",
-				show: function( data ){ return data.qListObjectDef.qDef.qFieldDefs && data.qListObjectDef.qDef.qFieldDefs!=""; },
 				items: {
 					list_coords:{
 						ref: "qListObjectDef.qDef.qFieldDefs.0",
@@ -184,7 +182,6 @@ define( [], function () {
 			mapTypes: {
 				type: "items",
 				label: "Map Types",
-				show: function( data ){ return data.qListObjectDef.qDef.qFieldDefs && data.qListObjectDef.qDef.qFieldDefs!=""; },
 				items:{
 					roadMap: {
 						ref: "properties.mapTypes.roadMap",
@@ -235,7 +232,6 @@ define( [], function () {
 			mapViews: {
 				type: "items",
 				label: "Street View and 45º Imagery",
-				show: function( data ){ return data.qListObjectDef.qDef.qFieldDefs && data.qListObjectDef.qDef.qFieldDefs!=""; },
 				items:{
 					streetView: {
 						ref: "properties.mapViews.streetView",
@@ -265,7 +261,6 @@ define( [], function () {
 				type: "items",
 				label: "Zoom",
 				// label: "Zoom and API",
-				show: function( data ){ return data.qListObjectDef.qDef.qFieldDefs && data.qListObjectDef.qDef.qFieldDefs!=""; },
 				items:{
 					defaultZoom: {
 						ref: "properties.zoomAPI.defaultZoom",
