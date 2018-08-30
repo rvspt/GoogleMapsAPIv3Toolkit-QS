@@ -1,0 +1,9 @@
+{
+	"name": "google-maps-toolkit-qs",
+	"description": "A toolkit that takes advantage of Google Maps API v3",
+	"type": "visualization",
+  	"icon":"map",
+	"version": 1,
+	"author": "Renato Vieira - rvr@qlik.com",
+  	"preview":"treasuremap.png"
+}

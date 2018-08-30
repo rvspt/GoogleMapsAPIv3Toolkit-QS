@@ -1,0 +1,9 @@
+﻿.markerlabels {
+     color: black;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", "sans-serif";
+     font-size: 9px;
+     text-align: left;   
+     border: 1px solid #7b7b7b;
+     white-space: nowrap;
+   }
